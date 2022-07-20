@@ -1,0 +1,208 @@
+.markdown-preview-view audio,
+.markdown-preview-view video {
+  max-width: max(500px, 60%);
+  outline: none;
+}
+
+
+.markdown-preview-view img,img {
+  display: block;
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /*experiment with values*/
+  transition: transform 0.25s ease;
+}
+
+.markdown-preview-view img:hover,img:hover {
+  -webkit-transform: scale(2); /* experiment with values */
+  transform: scale(2);
+}
+
+.markdown-preview-view,.markdown-preview-view{
+  line-height: 1.9em;
+  letter-spacing: 0.025em;
+}
+
+.nav-file-title-content, .nav-folder-title-content{
+  font-family: "Menlo","源樣黑體";
+}
+
+.setting-item-name,.vertical-tab-nav-item{
+  font-family: "源樣黑體";
+}
+
+.nav-folder-title-content{
+  font-weight: 500;
+  color: #555;
+}
+
+.theme-light{
+  --interactive-accent: #b7d158;
+  --interactive-accent-hover: #c6e35d;
+  --text-accent: #4a5914;
+  --text-accent-hover: #c6e35d;
+  --background-modifier-cover: rgba(200,200,200,0.5);
+}
+
+.internal-link,.external-link{
+  font-family: "源樣黑體";
+}
+.titlebar{
+
+}
+
+.titlebar-text{
+  height: ;
+  font-family: "源樣黑體";
+  color: #555;
+}
+
+.cm-s-obsidian .cm-header, .cm-s-obsidian .cm-strong{
+  font-weight: 900;
+}
+
+.markdown-preview-view blockquote{
+  font-family: "源樣黑體","芫荽 0.91";
+  border: 1px solid var(--interactive-accent);
+  border-width: 1px 1px 1px 5px;
+  border-radius: 15px;
+}
+
+.markdown-preview-sizer{
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.markdown-preview-view h1, .cm-header-1{
+  line-height: 1.2em;
+}
+
+:root {
+  --default-font: '微軟正黑體',"源樣黑體",'Inter',-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+}
+
+body {
+    --font-default: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+    --font-interface-override: '??';
+    --font-interface-theme: '??';
+    --font-interface: var(--font-interface-override), var(--font-interface-theme), var(--default-font, '??'), var(--font-default);
+    --font-text-override: '??';
+    --font-text-theme: '源樣黑體';
+    --font-text: var(--font-text-override), var(--font-text-theme), var(--font-interface);
+    --font-monospace-override: '??';
+    --font-monospace-theme: '??';
+    --font-monospace: var(--font-monospace-override), var(--font-monospace-theme), 'Source Code Pro', monospace;
+    --font-text-size: 16px;
+    --font-mermaid: var(--font-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+
+.cm-s-obsidian .cm-header, .cm-s-obsidian .cm-strong {
+    font-weight: 700;
+}
+
+/* Andy Matuschak mode! */
+
+th.svelte-pcimu8{
+  font-family: "源樣黑體 L";
+}
+
+.workspace-split.mod-root > .workspace-leaf:first-of-type:last-of-type .view-header {
+  border-bottom: 1px solid var(--background-secondary-alt);
+  background-color: var(--background-secondary);
+}
+
+.view-header {
+  height: 36px;
+  display: flex;
+  border-top: 1px solid var(--background-secondary-alt);
+  border-bottom: 2px solid var(--background-secondary-alt);
+  background-color: var(--background-secondary);
+  z-index: 1;
+  position: relative;
+}
+
+.view-header-title {
+  font-family: "源樣黑體 R";
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  overflow: auto;
+  padding-right: 20px;
+  white-space: pre;
+  word-wrap: normal;
+  line-height: 35px;
+  color: var(--text-muted);
+}
+
+.bt{
+  font-family: "PingFangTC-Light","源樣黑體";
+  letter-spacing: 1.5px;
+  border: solid 1px var(--interactive-accent);
+  border-radius: var(--button-border-radius, 25px);
+  background-color: #fff;
+  padding: 10px 13px;
+  color: var(--interactive-accent);
+  text-decoration: none;
+  font-size: 1em;
+  margin: 0 5px;
+  transition: all 0.05s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.bt:hover{
+  background-color: #fff;
+  color: var(--interactive-accent-hover);
+}
+
+
+li.svelte-gpx85b.svelte-gpx85b{
+  margin: 1px;
+}
+
+
+.ͼ1 .cm-content{
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote{
+  font-family: "源流明體","芫荽 0.91";
+  border: 1px solid var(--interactive-accent);
+  border-width: 0px 0px 0px 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.titlebar-inner {
+    color: #111;
+}
+
+.ͼ1 .cm-scroller{
+  line-height: 2;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 25px;
+}
+
+.markdown-source-view .markdown-embed, .markdown-source-view .file-embed {
+    border: 2px solid var(--background-modifier-border);
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+    padding: 4px 20px;
+    margin: 0;
+}
