@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on 陳建中 Tân Kiàn-tiong</title>
-    <link>https://example.com/series/</link>
+    <link>https://luke871016.github.io/blog/series/</link>
     <description>Recent content in Series on 陳建中 Tân Kiàn-tiong</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-Hant</language><atom:link href="https://example.com/series/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-Hant</language><atom:link href="https://luke871016.github.io/blog/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
